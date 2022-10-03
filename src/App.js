@@ -4,10 +4,8 @@ import RecCardList from './Components/RecCardList';
 import SingleCard from './Components/SingleCard';
 import MyWatchlist from './Components/MyWatchlist';
 import DetailView from './Components/DetailView';
-import Login from './Components/Login';
 import Watched from './Components/Watched';
 import FollowUser from './Components/FollowUser';
-import Registration from './Components/Registration';
 import Comments from './Components/Comments';
 import RecForm from './Components/RecForm';
 import LandingPage from './Components/LandingPage';
@@ -59,32 +57,6 @@ function App() {
         isLoggedIn={isLoggedIn}
       /> }
       <Routes>
-        {/* <Route
-
-          path="/login"
-          element={<><Navbar
-            navigate={navigate}
-            handleLogout={handleLogout}
-            isLoggedIn={isLoggedIn}
-          /><Login
-            setAuth={setAuth}
-            isLoggedIn={isLoggedIn}
-            navigate={navigate}
-            handleLogout={handleLogout}
-          /></>}
-        /> */}
-        {/* <Route
-          path="/register"
-          element={<><Navbar
-            navigate={navigate}
-            handleLogout={handleLogout}
-            isLoggedIn={isLoggedIn}
-          /><Registration
-            navigate={navigate}
-            setAuth={setAuth}
-          /></>}
-        /> */}
-       
         <Route
           path="/new"
           element={<RecForm
